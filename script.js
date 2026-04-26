@@ -12,6 +12,7 @@ const prices = document.querySelectorAll('.prices');
 	const td = document.createElement("td");
 
 	td.setAttribute("colspan", "2");
+	td.setAttribute("id", "ans");
 	td.textContent = "Total: " + add;
 
 	tr.appendChild(td);
